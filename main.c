@@ -1,4 +1,4 @@
-#include <printf.h>
+#include <stdio.h>
 
 int main() {
     printf("zlib-1.2.8\n");
