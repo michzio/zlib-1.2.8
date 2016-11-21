@@ -15,7 +15,7 @@ AR = ar rcs
 CFLAGS=-g -Wall -D__USE_FIXED_PROTOTYPES__ -std=c99
 
 # the build target executable: 
-TARGET = zlib_1.2.8 
+TARGET = zlib_1.2.8
 LIBRARY = libzlib.a 
 
 all: $(TARGET)
