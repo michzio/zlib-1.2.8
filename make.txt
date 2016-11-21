@@ -69,4 +69,4 @@ zutil.o: zutil.c zutil.h
 	$(CC) $(CFLAGS) -c zutil.c
 
 clean: 
-	$(RM) $(TARGET) $(LIBRARY) adler32.o compress.o crc32.o deflate.o gzclose.o gzlib.o gzread.o gzwrite.o infback.o inffast.o inflate.o inftrees.o trees.o zutil.o
+	$(RM) $(TARGET) $(TARGET).exe $(LIBRARY) adler32.o compress.o crc32.o deflate.o gzclose.o gzlib.o gzread.o gzwrite.o infback.o inffast.o inflate.o inftrees.o trees.o zutil.o
