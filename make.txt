@@ -1,0 +1,72 @@
+# Makefile for UNIX 
+
+# the compiler: gcc for C program, define as g++ for C++ 
+CC = gcc 
+
+# the static library archiver 
+AR = ar rcs 
+
+# compiler flags: 
+# -g enable debugging
+# -Wall turn on all warnings 
+# -D__USE_FIXED_PROTOTYPES__ force the compiler to use the correct headers 
+# -ansi don’t use GNU extensions, stick to ANSI 
+# -std=c99 use newer version 
+CFLAGS=-g -Wall -D__USE_FIXED_PROTOTYPES__ -std=c99
+
+# the build target executable: 
+TARGET = zlib_1.2.8 
+LIBRARY = libzlib.a 
+
+all: $(TARGET)
+
+$(TARGET): main.c $(LIBRARY)
+	$(CC) $(CFLAGS) -o $(TARGET) main.c $(LIBRARY)
+
+$(LIBRARY): adler32.o compress.o crc32.o deflate.o gzclose.o gzlib.o gzread.o gzwrite.o infback.o inffast.o inflate.o inftrees.o trees.o zutil.o
+	$(AR) $(LIBRARY) adler32.o compress.o crc32.o deflate.o gzclose.o gzlib.o gzread.o gzwrite.o infback.o inffast.o inflate.o inftrees.o trees.o zutil.o
+
+adler32.o: adler32.c 
+	$(CC) $(CFLAGS) -c adler32.c
+
+compress.o: compress.c
+	$(CC) $(CFLAGS) -c compress.c 
+
+crc32.o: crc32.c crc32.h
+	$(CC) $(CFLAGS) -c crc32.c
+
+deflate.o: deflate.c deflate.h
+	$(CC) $(CFLAGS) -c deflate.c 
+
+gzclose.o: gzclose.c 
+	$(CC) $(CFLAGS) -c gzclose.c 
+
+gzlib.o: gzlib.c 
+	$(CC) $(CFLAGS) -c gzlib.c 
+
+gzread.o: gzread.c 
+	$(CC) $(CFLAGS) -c gzread.c 
+
+gzwrite.o: gzwrite.c 
+	$(CC) $(CFLAGS) -c gzwrite.c
+
+infback.o: infback.c 
+	$(CC) $(CFLAGS) -c infback.c 
+
+inffast.o: inffast.c inffast.h
+	$(CC) $(CFLAGS) -c inffast.c
+
+inflate.o: inflate.c inflate.h 
+	$(CC) $(CFLAGS) -c inflate.c 
+
+inftrees.o: inftrees.c inftrees.h
+	$(CC) $(CFLAGS) -c inftrees.c 
+
+trees.o: trees.c trees.h 
+	$(CC) $(CFLAGS) -c trees.c 
+
+zutil.o: zutil.c zutil.h
+	$(CC) $(CFLAGS) -c zutil.c
+
+clean: 
+	$(RM) $(TARGET) $(LIBRARY) adler32.o compress.o crc32.o deflate.o gzclose.o gzlib.o gzread.o gzwrite.o infback.o inffast.o inflate.o inftrees.o trees.o zutil.o
