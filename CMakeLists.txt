@@ -13,7 +13,7 @@ else()
 endif()
 
 add_library(zlib_Lib SHARED ${SOURCE_FILES})
-set_target_properties(zlib_Lib PROPERTIES OUTPUT_NAME zlib_shared)
+set_target_properties(zlib_Lib PROPERTIES OUTPUT_NAME zlib)
 
 add_library(zlib_Lib_Static ${SOURCE_FILES})
 set_target_properties(zlib_Lib_Static PROPERTIES OUTPUT_NAME zlib)
