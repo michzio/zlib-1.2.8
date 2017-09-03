@@ -56,27 +56,6 @@ CMAKE_BINARY_DIR = /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: install/local
-
-.PHONY : install/local/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -98,29 +77,6 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-
-.PHONY : install/strip/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -153,19 +109,6 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named Intall_zlib_1_2_8
-
-# Build rule for target.
-Intall_zlib_1_2_8: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Intall_zlib_1_2_8
-.PHONY : Intall_zlib_1_2_8
-
-# fast build rule for target.
-Intall_zlib_1_2_8/fast:
-	$(MAKE) -f CMakeFiles/Intall_zlib_1_2_8.dir/build.make CMakeFiles/Intall_zlib_1_2_8.dir/build
-.PHONY : Intall_zlib_1_2_8/fast
 
 #=============================================================================
 # Target rules for targets named zlib_1_2_8
@@ -206,482 +149,482 @@ zlib_Lib/fast:
 	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/build
 .PHONY : zlib_Lib/fast
 
-adler32.o: adler32.c.o
+src/adler32.o: src/adler32.c.o
 
-.PHONY : adler32.o
-
-# target to build an object file
-adler32.c.o:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/adler32.c.o
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/adler32.c.o
-.PHONY : adler32.c.o
-
-adler32.i: adler32.c.i
-
-.PHONY : adler32.i
-
-# target to preprocess a source file
-adler32.c.i:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/adler32.c.i
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/adler32.c.i
-.PHONY : adler32.c.i
-
-adler32.s: adler32.c.s
-
-.PHONY : adler32.s
-
-# target to generate assembly for a file
-adler32.c.s:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/adler32.c.s
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/adler32.c.s
-.PHONY : adler32.c.s
-
-compress.o: compress.c.o
-
-.PHONY : compress.o
+.PHONY : src/adler32.o
 
 # target to build an object file
-compress.c.o:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/compress.c.o
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/compress.c.o
-.PHONY : compress.c.o
+src/adler32.c.o:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/adler32.c.o
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/adler32.c.o
+.PHONY : src/adler32.c.o
 
-compress.i: compress.c.i
+src/adler32.i: src/adler32.c.i
 
-.PHONY : compress.i
+.PHONY : src/adler32.i
 
 # target to preprocess a source file
-compress.c.i:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/compress.c.i
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/compress.c.i
-.PHONY : compress.c.i
+src/adler32.c.i:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/adler32.c.i
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/adler32.c.i
+.PHONY : src/adler32.c.i
 
-compress.s: compress.c.s
+src/adler32.s: src/adler32.c.s
 
-.PHONY : compress.s
+.PHONY : src/adler32.s
 
 # target to generate assembly for a file
-compress.c.s:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/compress.c.s
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/compress.c.s
-.PHONY : compress.c.s
+src/adler32.c.s:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/adler32.c.s
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/adler32.c.s
+.PHONY : src/adler32.c.s
 
-crc32.o: crc32.c.o
+src/compress.o: src/compress.c.o
 
-.PHONY : crc32.o
+.PHONY : src/compress.o
 
 # target to build an object file
-crc32.c.o:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/crc32.c.o
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/crc32.c.o
-.PHONY : crc32.c.o
+src/compress.c.o:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/compress.c.o
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/compress.c.o
+.PHONY : src/compress.c.o
 
-crc32.i: crc32.c.i
+src/compress.i: src/compress.c.i
 
-.PHONY : crc32.i
+.PHONY : src/compress.i
 
 # target to preprocess a source file
-crc32.c.i:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/crc32.c.i
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/crc32.c.i
-.PHONY : crc32.c.i
+src/compress.c.i:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/compress.c.i
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/compress.c.i
+.PHONY : src/compress.c.i
 
-crc32.s: crc32.c.s
+src/compress.s: src/compress.c.s
 
-.PHONY : crc32.s
+.PHONY : src/compress.s
 
 # target to generate assembly for a file
-crc32.c.s:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/crc32.c.s
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/crc32.c.s
-.PHONY : crc32.c.s
+src/compress.c.s:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/compress.c.s
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/compress.c.s
+.PHONY : src/compress.c.s
 
-deflate.o: deflate.c.o
+src/crc32.o: src/crc32.c.o
 
-.PHONY : deflate.o
+.PHONY : src/crc32.o
 
 # target to build an object file
-deflate.c.o:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/deflate.c.o
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/deflate.c.o
-.PHONY : deflate.c.o
+src/crc32.c.o:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/crc32.c.o
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/crc32.c.o
+.PHONY : src/crc32.c.o
 
-deflate.i: deflate.c.i
+src/crc32.i: src/crc32.c.i
 
-.PHONY : deflate.i
+.PHONY : src/crc32.i
 
 # target to preprocess a source file
-deflate.c.i:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/deflate.c.i
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/deflate.c.i
-.PHONY : deflate.c.i
+src/crc32.c.i:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/crc32.c.i
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/crc32.c.i
+.PHONY : src/crc32.c.i
 
-deflate.s: deflate.c.s
+src/crc32.s: src/crc32.c.s
 
-.PHONY : deflate.s
+.PHONY : src/crc32.s
 
 # target to generate assembly for a file
-deflate.c.s:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/deflate.c.s
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/deflate.c.s
-.PHONY : deflate.c.s
+src/crc32.c.s:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/crc32.c.s
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/crc32.c.s
+.PHONY : src/crc32.c.s
 
-gzclose.o: gzclose.c.o
+src/deflate.o: src/deflate.c.o
 
-.PHONY : gzclose.o
+.PHONY : src/deflate.o
 
 # target to build an object file
-gzclose.c.o:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/gzclose.c.o
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/gzclose.c.o
-.PHONY : gzclose.c.o
+src/deflate.c.o:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/deflate.c.o
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/deflate.c.o
+.PHONY : src/deflate.c.o
 
-gzclose.i: gzclose.c.i
+src/deflate.i: src/deflate.c.i
 
-.PHONY : gzclose.i
+.PHONY : src/deflate.i
 
 # target to preprocess a source file
-gzclose.c.i:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/gzclose.c.i
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/gzclose.c.i
-.PHONY : gzclose.c.i
+src/deflate.c.i:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/deflate.c.i
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/deflate.c.i
+.PHONY : src/deflate.c.i
 
-gzclose.s: gzclose.c.s
+src/deflate.s: src/deflate.c.s
 
-.PHONY : gzclose.s
+.PHONY : src/deflate.s
 
 # target to generate assembly for a file
-gzclose.c.s:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/gzclose.c.s
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/gzclose.c.s
-.PHONY : gzclose.c.s
+src/deflate.c.s:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/deflate.c.s
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/deflate.c.s
+.PHONY : src/deflate.c.s
 
-gzlib.o: gzlib.c.o
+src/gzclose.o: src/gzclose.c.o
 
-.PHONY : gzlib.o
+.PHONY : src/gzclose.o
 
 # target to build an object file
-gzlib.c.o:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/gzlib.c.o
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/gzlib.c.o
-.PHONY : gzlib.c.o
+src/gzclose.c.o:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/gzclose.c.o
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/gzclose.c.o
+.PHONY : src/gzclose.c.o
 
-gzlib.i: gzlib.c.i
+src/gzclose.i: src/gzclose.c.i
 
-.PHONY : gzlib.i
+.PHONY : src/gzclose.i
 
 # target to preprocess a source file
-gzlib.c.i:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/gzlib.c.i
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/gzlib.c.i
-.PHONY : gzlib.c.i
+src/gzclose.c.i:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/gzclose.c.i
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/gzclose.c.i
+.PHONY : src/gzclose.c.i
 
-gzlib.s: gzlib.c.s
+src/gzclose.s: src/gzclose.c.s
 
-.PHONY : gzlib.s
+.PHONY : src/gzclose.s
 
 # target to generate assembly for a file
-gzlib.c.s:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/gzlib.c.s
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/gzlib.c.s
-.PHONY : gzlib.c.s
+src/gzclose.c.s:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/gzclose.c.s
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/gzclose.c.s
+.PHONY : src/gzclose.c.s
 
-gzread.o: gzread.c.o
+src/gzlib.o: src/gzlib.c.o
 
-.PHONY : gzread.o
+.PHONY : src/gzlib.o
 
 # target to build an object file
-gzread.c.o:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/gzread.c.o
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/gzread.c.o
-.PHONY : gzread.c.o
+src/gzlib.c.o:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/gzlib.c.o
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/gzlib.c.o
+.PHONY : src/gzlib.c.o
 
-gzread.i: gzread.c.i
+src/gzlib.i: src/gzlib.c.i
 
-.PHONY : gzread.i
+.PHONY : src/gzlib.i
 
 # target to preprocess a source file
-gzread.c.i:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/gzread.c.i
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/gzread.c.i
-.PHONY : gzread.c.i
+src/gzlib.c.i:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/gzlib.c.i
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/gzlib.c.i
+.PHONY : src/gzlib.c.i
 
-gzread.s: gzread.c.s
+src/gzlib.s: src/gzlib.c.s
 
-.PHONY : gzread.s
+.PHONY : src/gzlib.s
 
 # target to generate assembly for a file
-gzread.c.s:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/gzread.c.s
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/gzread.c.s
-.PHONY : gzread.c.s
+src/gzlib.c.s:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/gzlib.c.s
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/gzlib.c.s
+.PHONY : src/gzlib.c.s
 
-gzwrite.o: gzwrite.c.o
+src/gzread.o: src/gzread.c.o
 
-.PHONY : gzwrite.o
+.PHONY : src/gzread.o
 
 # target to build an object file
-gzwrite.c.o:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/gzwrite.c.o
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/gzwrite.c.o
-.PHONY : gzwrite.c.o
+src/gzread.c.o:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/gzread.c.o
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/gzread.c.o
+.PHONY : src/gzread.c.o
 
-gzwrite.i: gzwrite.c.i
+src/gzread.i: src/gzread.c.i
 
-.PHONY : gzwrite.i
+.PHONY : src/gzread.i
 
 # target to preprocess a source file
-gzwrite.c.i:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/gzwrite.c.i
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/gzwrite.c.i
-.PHONY : gzwrite.c.i
+src/gzread.c.i:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/gzread.c.i
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/gzread.c.i
+.PHONY : src/gzread.c.i
 
-gzwrite.s: gzwrite.c.s
+src/gzread.s: src/gzread.c.s
 
-.PHONY : gzwrite.s
+.PHONY : src/gzread.s
 
 # target to generate assembly for a file
-gzwrite.c.s:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/gzwrite.c.s
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/gzwrite.c.s
-.PHONY : gzwrite.c.s
+src/gzread.c.s:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/gzread.c.s
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/gzread.c.s
+.PHONY : src/gzread.c.s
 
-infback.o: infback.c.o
+src/gzwrite.o: src/gzwrite.c.o
 
-.PHONY : infback.o
+.PHONY : src/gzwrite.o
 
 # target to build an object file
-infback.c.o:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/infback.c.o
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/infback.c.o
-.PHONY : infback.c.o
+src/gzwrite.c.o:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/gzwrite.c.o
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/gzwrite.c.o
+.PHONY : src/gzwrite.c.o
 
-infback.i: infback.c.i
+src/gzwrite.i: src/gzwrite.c.i
 
-.PHONY : infback.i
+.PHONY : src/gzwrite.i
 
 # target to preprocess a source file
-infback.c.i:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/infback.c.i
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/infback.c.i
-.PHONY : infback.c.i
+src/gzwrite.c.i:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/gzwrite.c.i
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/gzwrite.c.i
+.PHONY : src/gzwrite.c.i
 
-infback.s: infback.c.s
+src/gzwrite.s: src/gzwrite.c.s
 
-.PHONY : infback.s
+.PHONY : src/gzwrite.s
 
 # target to generate assembly for a file
-infback.c.s:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/infback.c.s
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/infback.c.s
-.PHONY : infback.c.s
+src/gzwrite.c.s:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/gzwrite.c.s
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/gzwrite.c.s
+.PHONY : src/gzwrite.c.s
 
-inffast.o: inffast.c.o
+src/infback.o: src/infback.c.o
 
-.PHONY : inffast.o
+.PHONY : src/infback.o
 
 # target to build an object file
-inffast.c.o:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/inffast.c.o
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/inffast.c.o
-.PHONY : inffast.c.o
+src/infback.c.o:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/infback.c.o
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/infback.c.o
+.PHONY : src/infback.c.o
 
-inffast.i: inffast.c.i
+src/infback.i: src/infback.c.i
 
-.PHONY : inffast.i
+.PHONY : src/infback.i
 
 # target to preprocess a source file
-inffast.c.i:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/inffast.c.i
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/inffast.c.i
-.PHONY : inffast.c.i
+src/infback.c.i:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/infback.c.i
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/infback.c.i
+.PHONY : src/infback.c.i
 
-inffast.s: inffast.c.s
+src/infback.s: src/infback.c.s
 
-.PHONY : inffast.s
+.PHONY : src/infback.s
 
 # target to generate assembly for a file
-inffast.c.s:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/inffast.c.s
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/inffast.c.s
-.PHONY : inffast.c.s
+src/infback.c.s:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/infback.c.s
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/infback.c.s
+.PHONY : src/infback.c.s
 
-inflate.o: inflate.c.o
+src/inffast.o: src/inffast.c.o
 
-.PHONY : inflate.o
+.PHONY : src/inffast.o
 
 # target to build an object file
-inflate.c.o:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/inflate.c.o
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/inflate.c.o
-.PHONY : inflate.c.o
+src/inffast.c.o:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/inffast.c.o
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/inffast.c.o
+.PHONY : src/inffast.c.o
 
-inflate.i: inflate.c.i
+src/inffast.i: src/inffast.c.i
 
-.PHONY : inflate.i
+.PHONY : src/inffast.i
 
 # target to preprocess a source file
-inflate.c.i:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/inflate.c.i
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/inflate.c.i
-.PHONY : inflate.c.i
+src/inffast.c.i:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/inffast.c.i
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/inffast.c.i
+.PHONY : src/inffast.c.i
 
-inflate.s: inflate.c.s
+src/inffast.s: src/inffast.c.s
 
-.PHONY : inflate.s
+.PHONY : src/inffast.s
 
 # target to generate assembly for a file
-inflate.c.s:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/inflate.c.s
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/inflate.c.s
-.PHONY : inflate.c.s
+src/inffast.c.s:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/inffast.c.s
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/inffast.c.s
+.PHONY : src/inffast.c.s
 
-inftrees.o: inftrees.c.o
+src/inflate.o: src/inflate.c.o
 
-.PHONY : inftrees.o
+.PHONY : src/inflate.o
 
 # target to build an object file
-inftrees.c.o:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/inftrees.c.o
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/inftrees.c.o
-.PHONY : inftrees.c.o
+src/inflate.c.o:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/inflate.c.o
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/inflate.c.o
+.PHONY : src/inflate.c.o
 
-inftrees.i: inftrees.c.i
+src/inflate.i: src/inflate.c.i
 
-.PHONY : inftrees.i
+.PHONY : src/inflate.i
 
 # target to preprocess a source file
-inftrees.c.i:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/inftrees.c.i
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/inftrees.c.i
-.PHONY : inftrees.c.i
+src/inflate.c.i:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/inflate.c.i
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/inflate.c.i
+.PHONY : src/inflate.c.i
 
-inftrees.s: inftrees.c.s
+src/inflate.s: src/inflate.c.s
 
-.PHONY : inftrees.s
+.PHONY : src/inflate.s
 
 # target to generate assembly for a file
-inftrees.c.s:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/inftrees.c.s
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/inftrees.c.s
-.PHONY : inftrees.c.s
+src/inflate.c.s:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/inflate.c.s
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/inflate.c.s
+.PHONY : src/inflate.c.s
 
-main.o: main.c.o
+src/inftrees.o: src/inftrees.c.o
 
-.PHONY : main.o
+.PHONY : src/inftrees.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/zlib_1_2_8.dir/build.make CMakeFiles/zlib_1_2_8.dir/main.c.o
-.PHONY : main.c.o
+src/inftrees.c.o:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/inftrees.c.o
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/inftrees.c.o
+.PHONY : src/inftrees.c.o
 
-main.i: main.c.i
+src/inftrees.i: src/inftrees.c.i
 
-.PHONY : main.i
+.PHONY : src/inftrees.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/zlib_1_2_8.dir/build.make CMakeFiles/zlib_1_2_8.dir/main.c.i
-.PHONY : main.c.i
+src/inftrees.c.i:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/inftrees.c.i
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/inftrees.c.i
+.PHONY : src/inftrees.c.i
 
-main.s: main.c.s
+src/inftrees.s: src/inftrees.c.s
 
-.PHONY : main.s
+.PHONY : src/inftrees.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/zlib_1_2_8.dir/build.make CMakeFiles/zlib_1_2_8.dir/main.c.s
-.PHONY : main.c.s
+src/inftrees.c.s:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/inftrees.c.s
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/inftrees.c.s
+.PHONY : src/inftrees.c.s
 
-trees.o: trees.c.o
+src/main.o: src/main.c.o
 
-.PHONY : trees.o
+.PHONY : src/main.o
 
 # target to build an object file
-trees.c.o:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/trees.c.o
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/trees.c.o
-.PHONY : trees.c.o
+src/main.c.o:
+	$(MAKE) -f CMakeFiles/zlib_1_2_8.dir/build.make CMakeFiles/zlib_1_2_8.dir/src/main.c.o
+.PHONY : src/main.c.o
 
-trees.i: trees.c.i
+src/main.i: src/main.c.i
 
-.PHONY : trees.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-trees.c.i:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/trees.c.i
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/trees.c.i
-.PHONY : trees.c.i
+src/main.c.i:
+	$(MAKE) -f CMakeFiles/zlib_1_2_8.dir/build.make CMakeFiles/zlib_1_2_8.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-trees.s: trees.c.s
+src/main.s: src/main.c.s
 
-.PHONY : trees.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-trees.c.s:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/trees.c.s
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/trees.c.s
-.PHONY : trees.c.s
+src/main.c.s:
+	$(MAKE) -f CMakeFiles/zlib_1_2_8.dir/build.make CMakeFiles/zlib_1_2_8.dir/src/main.c.s
+.PHONY : src/main.c.s
 
-uncompr.o: uncompr.c.o
+src/trees.o: src/trees.c.o
 
-.PHONY : uncompr.o
+.PHONY : src/trees.o
 
 # target to build an object file
-uncompr.c.o:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/uncompr.c.o
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/uncompr.c.o
-.PHONY : uncompr.c.o
+src/trees.c.o:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/trees.c.o
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/trees.c.o
+.PHONY : src/trees.c.o
 
-uncompr.i: uncompr.c.i
+src/trees.i: src/trees.c.i
 
-.PHONY : uncompr.i
+.PHONY : src/trees.i
 
 # target to preprocess a source file
-uncompr.c.i:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/uncompr.c.i
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/uncompr.c.i
-.PHONY : uncompr.c.i
+src/trees.c.i:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/trees.c.i
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/trees.c.i
+.PHONY : src/trees.c.i
 
-uncompr.s: uncompr.c.s
+src/trees.s: src/trees.c.s
 
-.PHONY : uncompr.s
+.PHONY : src/trees.s
 
 # target to generate assembly for a file
-uncompr.c.s:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/uncompr.c.s
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/uncompr.c.s
-.PHONY : uncompr.c.s
+src/trees.c.s:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/trees.c.s
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/trees.c.s
+.PHONY : src/trees.c.s
 
-zutil.o: zutil.c.o
+src/uncompr.o: src/uncompr.c.o
 
-.PHONY : zutil.o
+.PHONY : src/uncompr.o
 
 # target to build an object file
-zutil.c.o:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/zutil.c.o
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/zutil.c.o
-.PHONY : zutil.c.o
+src/uncompr.c.o:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/uncompr.c.o
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/uncompr.c.o
+.PHONY : src/uncompr.c.o
 
-zutil.i: zutil.c.i
+src/uncompr.i: src/uncompr.c.i
 
-.PHONY : zutil.i
+.PHONY : src/uncompr.i
 
 # target to preprocess a source file
-zutil.c.i:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/zutil.c.i
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/zutil.c.i
-.PHONY : zutil.c.i
+src/uncompr.c.i:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/uncompr.c.i
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/uncompr.c.i
+.PHONY : src/uncompr.c.i
 
-zutil.s: zutil.c.s
+src/uncompr.s: src/uncompr.c.s
 
-.PHONY : zutil.s
+.PHONY : src/uncompr.s
 
 # target to generate assembly for a file
-zutil.c.s:
-	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/zutil.c.s
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/zutil.c.s
-.PHONY : zutil.c.s
+src/uncompr.c.s:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/uncompr.c.s
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/uncompr.c.s
+.PHONY : src/uncompr.c.s
+
+src/zutil.o: src/zutil.c.o
+
+.PHONY : src/zutil.o
+
+# target to build an object file
+src/zutil.c.o:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/zutil.c.o
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/zutil.c.o
+.PHONY : src/zutil.c.o
+
+src/zutil.i: src/zutil.c.i
+
+.PHONY : src/zutil.i
+
+# target to preprocess a source file
+src/zutil.c.i:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/zutil.c.i
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/zutil.c.i
+.PHONY : src/zutil.c.i
+
+src/zutil.s: src/zutil.c.s
+
+.PHONY : src/zutil.s
+
+# target to generate assembly for a file
+src/zutil.c.s:
+	$(MAKE) -f CMakeFiles/zlib_Lib_Static.dir/build.make CMakeFiles/zlib_Lib_Static.dir/src/zutil.c.s
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/zutil.c.s
+.PHONY : src/zutil.c.s
 
 # Help Target
 help:
@@ -689,64 +632,59 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/local"
-	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Intall_zlib_1_2_8"
 	@echo "... zlib_1_2_8"
-	@echo "... install/strip"
-	@echo "... install"
 	@echo "... zlib_Lib_Static"
 	@echo "... zlib_Lib"
-	@echo "... adler32.o"
-	@echo "... adler32.i"
-	@echo "... adler32.s"
-	@echo "... compress.o"
-	@echo "... compress.i"
-	@echo "... compress.s"
-	@echo "... crc32.o"
-	@echo "... crc32.i"
-	@echo "... crc32.s"
-	@echo "... deflate.o"
-	@echo "... deflate.i"
-	@echo "... deflate.s"
-	@echo "... gzclose.o"
-	@echo "... gzclose.i"
-	@echo "... gzclose.s"
-	@echo "... gzlib.o"
-	@echo "... gzlib.i"
-	@echo "... gzlib.s"
-	@echo "... gzread.o"
-	@echo "... gzread.i"
-	@echo "... gzread.s"
-	@echo "... gzwrite.o"
-	@echo "... gzwrite.i"
-	@echo "... gzwrite.s"
-	@echo "... infback.o"
-	@echo "... infback.i"
-	@echo "... infback.s"
-	@echo "... inffast.o"
-	@echo "... inffast.i"
-	@echo "... inffast.s"
-	@echo "... inflate.o"
-	@echo "... inflate.i"
-	@echo "... inflate.s"
-	@echo "... inftrees.o"
-	@echo "... inftrees.i"
-	@echo "... inftrees.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... trees.o"
-	@echo "... trees.i"
-	@echo "... trees.s"
-	@echo "... uncompr.o"
-	@echo "... uncompr.i"
-	@echo "... uncompr.s"
-	@echo "... zutil.o"
-	@echo "... zutil.i"
-	@echo "... zutil.s"
+	@echo "... src/adler32.o"
+	@echo "... src/adler32.i"
+	@echo "... src/adler32.s"
+	@echo "... src/compress.o"
+	@echo "... src/compress.i"
+	@echo "... src/compress.s"
+	@echo "... src/crc32.o"
+	@echo "... src/crc32.i"
+	@echo "... src/crc32.s"
+	@echo "... src/deflate.o"
+	@echo "... src/deflate.i"
+	@echo "... src/deflate.s"
+	@echo "... src/gzclose.o"
+	@echo "... src/gzclose.i"
+	@echo "... src/gzclose.s"
+	@echo "... src/gzlib.o"
+	@echo "... src/gzlib.i"
+	@echo "... src/gzlib.s"
+	@echo "... src/gzread.o"
+	@echo "... src/gzread.i"
+	@echo "... src/gzread.s"
+	@echo "... src/gzwrite.o"
+	@echo "... src/gzwrite.i"
+	@echo "... src/gzwrite.s"
+	@echo "... src/infback.o"
+	@echo "... src/infback.i"
+	@echo "... src/infback.s"
+	@echo "... src/inffast.o"
+	@echo "... src/inffast.i"
+	@echo "... src/inffast.s"
+	@echo "... src/inflate.o"
+	@echo "... src/inflate.i"
+	@echo "... src/inflate.s"
+	@echo "... src/inftrees.o"
+	@echo "... src/inftrees.i"
+	@echo "... src/inftrees.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/trees.o"
+	@echo "... src/trees.i"
+	@echo "... src/trees.s"
+	@echo "... src/uncompr.o"
+	@echo "... src/uncompr.i"
+	@echo "... src/uncompr.s"
+	@echo "... src/zutil.o"
+	@echo "... src/zutil.i"
+	@echo "... src/zutil.s"
 .PHONY : help
 
 

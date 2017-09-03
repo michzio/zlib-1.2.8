@@ -57,427 +57,427 @@ include CMakeFiles/zlib_Lib.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/zlib_Lib.dir/flags.make
 
-CMakeFiles/zlib_Lib.dir/adler32.c.o: CMakeFiles/zlib_Lib.dir/flags.make
-CMakeFiles/zlib_Lib.dir/adler32.c.o: ../adler32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/zlib_Lib.dir/adler32.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/adler32.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/adler32.c
+CMakeFiles/zlib_Lib.dir/src/adler32.c.o: CMakeFiles/zlib_Lib.dir/flags.make
+CMakeFiles/zlib_Lib.dir/src/adler32.c.o: ../src/adler32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/zlib_Lib.dir/src/adler32.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/src/adler32.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/adler32.c
 
-CMakeFiles/zlib_Lib.dir/adler32.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/adler32.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/adler32.c > CMakeFiles/zlib_Lib.dir/adler32.c.i
+CMakeFiles/zlib_Lib.dir/src/adler32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/src/adler32.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/adler32.c > CMakeFiles/zlib_Lib.dir/src/adler32.c.i
 
-CMakeFiles/zlib_Lib.dir/adler32.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/adler32.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/adler32.c -o CMakeFiles/zlib_Lib.dir/adler32.c.s
+CMakeFiles/zlib_Lib.dir/src/adler32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/src/adler32.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/adler32.c -o CMakeFiles/zlib_Lib.dir/src/adler32.c.s
 
-CMakeFiles/zlib_Lib.dir/adler32.c.o.requires:
+CMakeFiles/zlib_Lib.dir/src/adler32.c.o.requires:
 
-.PHONY : CMakeFiles/zlib_Lib.dir/adler32.c.o.requires
+.PHONY : CMakeFiles/zlib_Lib.dir/src/adler32.c.o.requires
 
-CMakeFiles/zlib_Lib.dir/adler32.c.o.provides: CMakeFiles/zlib_Lib.dir/adler32.c.o.requires
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/adler32.c.o.provides.build
-.PHONY : CMakeFiles/zlib_Lib.dir/adler32.c.o.provides
+CMakeFiles/zlib_Lib.dir/src/adler32.c.o.provides: CMakeFiles/zlib_Lib.dir/src/adler32.c.o.requires
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/adler32.c.o.provides.build
+.PHONY : CMakeFiles/zlib_Lib.dir/src/adler32.c.o.provides
 
-CMakeFiles/zlib_Lib.dir/adler32.c.o.provides.build: CMakeFiles/zlib_Lib.dir/adler32.c.o
+CMakeFiles/zlib_Lib.dir/src/adler32.c.o.provides.build: CMakeFiles/zlib_Lib.dir/src/adler32.c.o
 
 
-CMakeFiles/zlib_Lib.dir/compress.c.o: CMakeFiles/zlib_Lib.dir/flags.make
-CMakeFiles/zlib_Lib.dir/compress.c.o: ../compress.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/zlib_Lib.dir/compress.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/compress.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/compress.c
+CMakeFiles/zlib_Lib.dir/src/compress.c.o: CMakeFiles/zlib_Lib.dir/flags.make
+CMakeFiles/zlib_Lib.dir/src/compress.c.o: ../src/compress.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/zlib_Lib.dir/src/compress.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/src/compress.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/compress.c
 
-CMakeFiles/zlib_Lib.dir/compress.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/compress.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/compress.c > CMakeFiles/zlib_Lib.dir/compress.c.i
+CMakeFiles/zlib_Lib.dir/src/compress.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/src/compress.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/compress.c > CMakeFiles/zlib_Lib.dir/src/compress.c.i
 
-CMakeFiles/zlib_Lib.dir/compress.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/compress.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/compress.c -o CMakeFiles/zlib_Lib.dir/compress.c.s
+CMakeFiles/zlib_Lib.dir/src/compress.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/src/compress.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/compress.c -o CMakeFiles/zlib_Lib.dir/src/compress.c.s
 
-CMakeFiles/zlib_Lib.dir/compress.c.o.requires:
+CMakeFiles/zlib_Lib.dir/src/compress.c.o.requires:
 
-.PHONY : CMakeFiles/zlib_Lib.dir/compress.c.o.requires
+.PHONY : CMakeFiles/zlib_Lib.dir/src/compress.c.o.requires
 
-CMakeFiles/zlib_Lib.dir/compress.c.o.provides: CMakeFiles/zlib_Lib.dir/compress.c.o.requires
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/compress.c.o.provides.build
-.PHONY : CMakeFiles/zlib_Lib.dir/compress.c.o.provides
+CMakeFiles/zlib_Lib.dir/src/compress.c.o.provides: CMakeFiles/zlib_Lib.dir/src/compress.c.o.requires
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/compress.c.o.provides.build
+.PHONY : CMakeFiles/zlib_Lib.dir/src/compress.c.o.provides
 
-CMakeFiles/zlib_Lib.dir/compress.c.o.provides.build: CMakeFiles/zlib_Lib.dir/compress.c.o
+CMakeFiles/zlib_Lib.dir/src/compress.c.o.provides.build: CMakeFiles/zlib_Lib.dir/src/compress.c.o
 
 
-CMakeFiles/zlib_Lib.dir/crc32.c.o: CMakeFiles/zlib_Lib.dir/flags.make
-CMakeFiles/zlib_Lib.dir/crc32.c.o: ../crc32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/zlib_Lib.dir/crc32.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/crc32.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/crc32.c
+CMakeFiles/zlib_Lib.dir/src/crc32.c.o: CMakeFiles/zlib_Lib.dir/flags.make
+CMakeFiles/zlib_Lib.dir/src/crc32.c.o: ../src/crc32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/zlib_Lib.dir/src/crc32.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/src/crc32.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/crc32.c
 
-CMakeFiles/zlib_Lib.dir/crc32.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/crc32.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/crc32.c > CMakeFiles/zlib_Lib.dir/crc32.c.i
+CMakeFiles/zlib_Lib.dir/src/crc32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/src/crc32.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/crc32.c > CMakeFiles/zlib_Lib.dir/src/crc32.c.i
 
-CMakeFiles/zlib_Lib.dir/crc32.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/crc32.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/crc32.c -o CMakeFiles/zlib_Lib.dir/crc32.c.s
+CMakeFiles/zlib_Lib.dir/src/crc32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/src/crc32.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/crc32.c -o CMakeFiles/zlib_Lib.dir/src/crc32.c.s
 
-CMakeFiles/zlib_Lib.dir/crc32.c.o.requires:
+CMakeFiles/zlib_Lib.dir/src/crc32.c.o.requires:
 
-.PHONY : CMakeFiles/zlib_Lib.dir/crc32.c.o.requires
+.PHONY : CMakeFiles/zlib_Lib.dir/src/crc32.c.o.requires
 
-CMakeFiles/zlib_Lib.dir/crc32.c.o.provides: CMakeFiles/zlib_Lib.dir/crc32.c.o.requires
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/crc32.c.o.provides.build
-.PHONY : CMakeFiles/zlib_Lib.dir/crc32.c.o.provides
+CMakeFiles/zlib_Lib.dir/src/crc32.c.o.provides: CMakeFiles/zlib_Lib.dir/src/crc32.c.o.requires
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/crc32.c.o.provides.build
+.PHONY : CMakeFiles/zlib_Lib.dir/src/crc32.c.o.provides
 
-CMakeFiles/zlib_Lib.dir/crc32.c.o.provides.build: CMakeFiles/zlib_Lib.dir/crc32.c.o
+CMakeFiles/zlib_Lib.dir/src/crc32.c.o.provides.build: CMakeFiles/zlib_Lib.dir/src/crc32.c.o
 
 
-CMakeFiles/zlib_Lib.dir/deflate.c.o: CMakeFiles/zlib_Lib.dir/flags.make
-CMakeFiles/zlib_Lib.dir/deflate.c.o: ../deflate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/zlib_Lib.dir/deflate.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/deflate.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/deflate.c
+CMakeFiles/zlib_Lib.dir/src/deflate.c.o: CMakeFiles/zlib_Lib.dir/flags.make
+CMakeFiles/zlib_Lib.dir/src/deflate.c.o: ../src/deflate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/zlib_Lib.dir/src/deflate.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/src/deflate.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/deflate.c
 
-CMakeFiles/zlib_Lib.dir/deflate.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/deflate.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/deflate.c > CMakeFiles/zlib_Lib.dir/deflate.c.i
+CMakeFiles/zlib_Lib.dir/src/deflate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/src/deflate.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/deflate.c > CMakeFiles/zlib_Lib.dir/src/deflate.c.i
 
-CMakeFiles/zlib_Lib.dir/deflate.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/deflate.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/deflate.c -o CMakeFiles/zlib_Lib.dir/deflate.c.s
+CMakeFiles/zlib_Lib.dir/src/deflate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/src/deflate.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/deflate.c -o CMakeFiles/zlib_Lib.dir/src/deflate.c.s
 
-CMakeFiles/zlib_Lib.dir/deflate.c.o.requires:
+CMakeFiles/zlib_Lib.dir/src/deflate.c.o.requires:
 
-.PHONY : CMakeFiles/zlib_Lib.dir/deflate.c.o.requires
+.PHONY : CMakeFiles/zlib_Lib.dir/src/deflate.c.o.requires
 
-CMakeFiles/zlib_Lib.dir/deflate.c.o.provides: CMakeFiles/zlib_Lib.dir/deflate.c.o.requires
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/deflate.c.o.provides.build
-.PHONY : CMakeFiles/zlib_Lib.dir/deflate.c.o.provides
+CMakeFiles/zlib_Lib.dir/src/deflate.c.o.provides: CMakeFiles/zlib_Lib.dir/src/deflate.c.o.requires
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/deflate.c.o.provides.build
+.PHONY : CMakeFiles/zlib_Lib.dir/src/deflate.c.o.provides
 
-CMakeFiles/zlib_Lib.dir/deflate.c.o.provides.build: CMakeFiles/zlib_Lib.dir/deflate.c.o
+CMakeFiles/zlib_Lib.dir/src/deflate.c.o.provides.build: CMakeFiles/zlib_Lib.dir/src/deflate.c.o
 
 
-CMakeFiles/zlib_Lib.dir/gzclose.c.o: CMakeFiles/zlib_Lib.dir/flags.make
-CMakeFiles/zlib_Lib.dir/gzclose.c.o: ../gzclose.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/zlib_Lib.dir/gzclose.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/gzclose.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/gzclose.c
+CMakeFiles/zlib_Lib.dir/src/gzclose.c.o: CMakeFiles/zlib_Lib.dir/flags.make
+CMakeFiles/zlib_Lib.dir/src/gzclose.c.o: ../src/gzclose.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/zlib_Lib.dir/src/gzclose.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/src/gzclose.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/gzclose.c
 
-CMakeFiles/zlib_Lib.dir/gzclose.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/gzclose.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/gzclose.c > CMakeFiles/zlib_Lib.dir/gzclose.c.i
+CMakeFiles/zlib_Lib.dir/src/gzclose.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/src/gzclose.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/gzclose.c > CMakeFiles/zlib_Lib.dir/src/gzclose.c.i
 
-CMakeFiles/zlib_Lib.dir/gzclose.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/gzclose.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/gzclose.c -o CMakeFiles/zlib_Lib.dir/gzclose.c.s
+CMakeFiles/zlib_Lib.dir/src/gzclose.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/src/gzclose.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/gzclose.c -o CMakeFiles/zlib_Lib.dir/src/gzclose.c.s
 
-CMakeFiles/zlib_Lib.dir/gzclose.c.o.requires:
+CMakeFiles/zlib_Lib.dir/src/gzclose.c.o.requires:
 
-.PHONY : CMakeFiles/zlib_Lib.dir/gzclose.c.o.requires
+.PHONY : CMakeFiles/zlib_Lib.dir/src/gzclose.c.o.requires
 
-CMakeFiles/zlib_Lib.dir/gzclose.c.o.provides: CMakeFiles/zlib_Lib.dir/gzclose.c.o.requires
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/gzclose.c.o.provides.build
-.PHONY : CMakeFiles/zlib_Lib.dir/gzclose.c.o.provides
+CMakeFiles/zlib_Lib.dir/src/gzclose.c.o.provides: CMakeFiles/zlib_Lib.dir/src/gzclose.c.o.requires
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/gzclose.c.o.provides.build
+.PHONY : CMakeFiles/zlib_Lib.dir/src/gzclose.c.o.provides
 
-CMakeFiles/zlib_Lib.dir/gzclose.c.o.provides.build: CMakeFiles/zlib_Lib.dir/gzclose.c.o
+CMakeFiles/zlib_Lib.dir/src/gzclose.c.o.provides.build: CMakeFiles/zlib_Lib.dir/src/gzclose.c.o
 
 
-CMakeFiles/zlib_Lib.dir/gzlib.c.o: CMakeFiles/zlib_Lib.dir/flags.make
-CMakeFiles/zlib_Lib.dir/gzlib.c.o: ../gzlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/zlib_Lib.dir/gzlib.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/gzlib.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/gzlib.c
+CMakeFiles/zlib_Lib.dir/src/gzlib.c.o: CMakeFiles/zlib_Lib.dir/flags.make
+CMakeFiles/zlib_Lib.dir/src/gzlib.c.o: ../src/gzlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/zlib_Lib.dir/src/gzlib.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/src/gzlib.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/gzlib.c
 
-CMakeFiles/zlib_Lib.dir/gzlib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/gzlib.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/gzlib.c > CMakeFiles/zlib_Lib.dir/gzlib.c.i
+CMakeFiles/zlib_Lib.dir/src/gzlib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/src/gzlib.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/gzlib.c > CMakeFiles/zlib_Lib.dir/src/gzlib.c.i
 
-CMakeFiles/zlib_Lib.dir/gzlib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/gzlib.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/gzlib.c -o CMakeFiles/zlib_Lib.dir/gzlib.c.s
+CMakeFiles/zlib_Lib.dir/src/gzlib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/src/gzlib.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/gzlib.c -o CMakeFiles/zlib_Lib.dir/src/gzlib.c.s
 
-CMakeFiles/zlib_Lib.dir/gzlib.c.o.requires:
+CMakeFiles/zlib_Lib.dir/src/gzlib.c.o.requires:
 
-.PHONY : CMakeFiles/zlib_Lib.dir/gzlib.c.o.requires
+.PHONY : CMakeFiles/zlib_Lib.dir/src/gzlib.c.o.requires
 
-CMakeFiles/zlib_Lib.dir/gzlib.c.o.provides: CMakeFiles/zlib_Lib.dir/gzlib.c.o.requires
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/gzlib.c.o.provides.build
-.PHONY : CMakeFiles/zlib_Lib.dir/gzlib.c.o.provides
+CMakeFiles/zlib_Lib.dir/src/gzlib.c.o.provides: CMakeFiles/zlib_Lib.dir/src/gzlib.c.o.requires
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/gzlib.c.o.provides.build
+.PHONY : CMakeFiles/zlib_Lib.dir/src/gzlib.c.o.provides
 
-CMakeFiles/zlib_Lib.dir/gzlib.c.o.provides.build: CMakeFiles/zlib_Lib.dir/gzlib.c.o
+CMakeFiles/zlib_Lib.dir/src/gzlib.c.o.provides.build: CMakeFiles/zlib_Lib.dir/src/gzlib.c.o
 
 
-CMakeFiles/zlib_Lib.dir/gzread.c.o: CMakeFiles/zlib_Lib.dir/flags.make
-CMakeFiles/zlib_Lib.dir/gzread.c.o: ../gzread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/zlib_Lib.dir/gzread.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/gzread.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/gzread.c
+CMakeFiles/zlib_Lib.dir/src/gzread.c.o: CMakeFiles/zlib_Lib.dir/flags.make
+CMakeFiles/zlib_Lib.dir/src/gzread.c.o: ../src/gzread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/zlib_Lib.dir/src/gzread.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/src/gzread.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/gzread.c
 
-CMakeFiles/zlib_Lib.dir/gzread.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/gzread.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/gzread.c > CMakeFiles/zlib_Lib.dir/gzread.c.i
+CMakeFiles/zlib_Lib.dir/src/gzread.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/src/gzread.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/gzread.c > CMakeFiles/zlib_Lib.dir/src/gzread.c.i
 
-CMakeFiles/zlib_Lib.dir/gzread.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/gzread.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/gzread.c -o CMakeFiles/zlib_Lib.dir/gzread.c.s
+CMakeFiles/zlib_Lib.dir/src/gzread.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/src/gzread.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/gzread.c -o CMakeFiles/zlib_Lib.dir/src/gzread.c.s
 
-CMakeFiles/zlib_Lib.dir/gzread.c.o.requires:
+CMakeFiles/zlib_Lib.dir/src/gzread.c.o.requires:
 
-.PHONY : CMakeFiles/zlib_Lib.dir/gzread.c.o.requires
+.PHONY : CMakeFiles/zlib_Lib.dir/src/gzread.c.o.requires
 
-CMakeFiles/zlib_Lib.dir/gzread.c.o.provides: CMakeFiles/zlib_Lib.dir/gzread.c.o.requires
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/gzread.c.o.provides.build
-.PHONY : CMakeFiles/zlib_Lib.dir/gzread.c.o.provides
+CMakeFiles/zlib_Lib.dir/src/gzread.c.o.provides: CMakeFiles/zlib_Lib.dir/src/gzread.c.o.requires
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/gzread.c.o.provides.build
+.PHONY : CMakeFiles/zlib_Lib.dir/src/gzread.c.o.provides
 
-CMakeFiles/zlib_Lib.dir/gzread.c.o.provides.build: CMakeFiles/zlib_Lib.dir/gzread.c.o
+CMakeFiles/zlib_Lib.dir/src/gzread.c.o.provides.build: CMakeFiles/zlib_Lib.dir/src/gzread.c.o
 
 
-CMakeFiles/zlib_Lib.dir/gzwrite.c.o: CMakeFiles/zlib_Lib.dir/flags.make
-CMakeFiles/zlib_Lib.dir/gzwrite.c.o: ../gzwrite.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/zlib_Lib.dir/gzwrite.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/gzwrite.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/gzwrite.c
+CMakeFiles/zlib_Lib.dir/src/gzwrite.c.o: CMakeFiles/zlib_Lib.dir/flags.make
+CMakeFiles/zlib_Lib.dir/src/gzwrite.c.o: ../src/gzwrite.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/zlib_Lib.dir/src/gzwrite.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/src/gzwrite.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/gzwrite.c
 
-CMakeFiles/zlib_Lib.dir/gzwrite.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/gzwrite.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/gzwrite.c > CMakeFiles/zlib_Lib.dir/gzwrite.c.i
+CMakeFiles/zlib_Lib.dir/src/gzwrite.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/src/gzwrite.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/gzwrite.c > CMakeFiles/zlib_Lib.dir/src/gzwrite.c.i
 
-CMakeFiles/zlib_Lib.dir/gzwrite.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/gzwrite.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/gzwrite.c -o CMakeFiles/zlib_Lib.dir/gzwrite.c.s
+CMakeFiles/zlib_Lib.dir/src/gzwrite.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/src/gzwrite.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/gzwrite.c -o CMakeFiles/zlib_Lib.dir/src/gzwrite.c.s
 
-CMakeFiles/zlib_Lib.dir/gzwrite.c.o.requires:
+CMakeFiles/zlib_Lib.dir/src/gzwrite.c.o.requires:
 
-.PHONY : CMakeFiles/zlib_Lib.dir/gzwrite.c.o.requires
+.PHONY : CMakeFiles/zlib_Lib.dir/src/gzwrite.c.o.requires
 
-CMakeFiles/zlib_Lib.dir/gzwrite.c.o.provides: CMakeFiles/zlib_Lib.dir/gzwrite.c.o.requires
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/gzwrite.c.o.provides.build
-.PHONY : CMakeFiles/zlib_Lib.dir/gzwrite.c.o.provides
+CMakeFiles/zlib_Lib.dir/src/gzwrite.c.o.provides: CMakeFiles/zlib_Lib.dir/src/gzwrite.c.o.requires
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/gzwrite.c.o.provides.build
+.PHONY : CMakeFiles/zlib_Lib.dir/src/gzwrite.c.o.provides
 
-CMakeFiles/zlib_Lib.dir/gzwrite.c.o.provides.build: CMakeFiles/zlib_Lib.dir/gzwrite.c.o
+CMakeFiles/zlib_Lib.dir/src/gzwrite.c.o.provides.build: CMakeFiles/zlib_Lib.dir/src/gzwrite.c.o
 
 
-CMakeFiles/zlib_Lib.dir/infback.c.o: CMakeFiles/zlib_Lib.dir/flags.make
-CMakeFiles/zlib_Lib.dir/infback.c.o: ../infback.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/zlib_Lib.dir/infback.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/infback.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/infback.c
+CMakeFiles/zlib_Lib.dir/src/infback.c.o: CMakeFiles/zlib_Lib.dir/flags.make
+CMakeFiles/zlib_Lib.dir/src/infback.c.o: ../src/infback.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/zlib_Lib.dir/src/infback.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/src/infback.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/infback.c
 
-CMakeFiles/zlib_Lib.dir/infback.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/infback.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/infback.c > CMakeFiles/zlib_Lib.dir/infback.c.i
+CMakeFiles/zlib_Lib.dir/src/infback.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/src/infback.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/infback.c > CMakeFiles/zlib_Lib.dir/src/infback.c.i
 
-CMakeFiles/zlib_Lib.dir/infback.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/infback.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/infback.c -o CMakeFiles/zlib_Lib.dir/infback.c.s
+CMakeFiles/zlib_Lib.dir/src/infback.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/src/infback.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/infback.c -o CMakeFiles/zlib_Lib.dir/src/infback.c.s
 
-CMakeFiles/zlib_Lib.dir/infback.c.o.requires:
+CMakeFiles/zlib_Lib.dir/src/infback.c.o.requires:
 
-.PHONY : CMakeFiles/zlib_Lib.dir/infback.c.o.requires
+.PHONY : CMakeFiles/zlib_Lib.dir/src/infback.c.o.requires
 
-CMakeFiles/zlib_Lib.dir/infback.c.o.provides: CMakeFiles/zlib_Lib.dir/infback.c.o.requires
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/infback.c.o.provides.build
-.PHONY : CMakeFiles/zlib_Lib.dir/infback.c.o.provides
+CMakeFiles/zlib_Lib.dir/src/infback.c.o.provides: CMakeFiles/zlib_Lib.dir/src/infback.c.o.requires
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/infback.c.o.provides.build
+.PHONY : CMakeFiles/zlib_Lib.dir/src/infback.c.o.provides
 
-CMakeFiles/zlib_Lib.dir/infback.c.o.provides.build: CMakeFiles/zlib_Lib.dir/infback.c.o
+CMakeFiles/zlib_Lib.dir/src/infback.c.o.provides.build: CMakeFiles/zlib_Lib.dir/src/infback.c.o
 
 
-CMakeFiles/zlib_Lib.dir/inffast.c.o: CMakeFiles/zlib_Lib.dir/flags.make
-CMakeFiles/zlib_Lib.dir/inffast.c.o: ../inffast.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/zlib_Lib.dir/inffast.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/inffast.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/inffast.c
+CMakeFiles/zlib_Lib.dir/src/inffast.c.o: CMakeFiles/zlib_Lib.dir/flags.make
+CMakeFiles/zlib_Lib.dir/src/inffast.c.o: ../src/inffast.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/zlib_Lib.dir/src/inffast.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/src/inffast.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/inffast.c
 
-CMakeFiles/zlib_Lib.dir/inffast.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/inffast.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/inffast.c > CMakeFiles/zlib_Lib.dir/inffast.c.i
+CMakeFiles/zlib_Lib.dir/src/inffast.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/src/inffast.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/inffast.c > CMakeFiles/zlib_Lib.dir/src/inffast.c.i
 
-CMakeFiles/zlib_Lib.dir/inffast.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/inffast.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/inffast.c -o CMakeFiles/zlib_Lib.dir/inffast.c.s
+CMakeFiles/zlib_Lib.dir/src/inffast.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/src/inffast.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/inffast.c -o CMakeFiles/zlib_Lib.dir/src/inffast.c.s
 
-CMakeFiles/zlib_Lib.dir/inffast.c.o.requires:
+CMakeFiles/zlib_Lib.dir/src/inffast.c.o.requires:
 
-.PHONY : CMakeFiles/zlib_Lib.dir/inffast.c.o.requires
+.PHONY : CMakeFiles/zlib_Lib.dir/src/inffast.c.o.requires
 
-CMakeFiles/zlib_Lib.dir/inffast.c.o.provides: CMakeFiles/zlib_Lib.dir/inffast.c.o.requires
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/inffast.c.o.provides.build
-.PHONY : CMakeFiles/zlib_Lib.dir/inffast.c.o.provides
+CMakeFiles/zlib_Lib.dir/src/inffast.c.o.provides: CMakeFiles/zlib_Lib.dir/src/inffast.c.o.requires
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/inffast.c.o.provides.build
+.PHONY : CMakeFiles/zlib_Lib.dir/src/inffast.c.o.provides
 
-CMakeFiles/zlib_Lib.dir/inffast.c.o.provides.build: CMakeFiles/zlib_Lib.dir/inffast.c.o
+CMakeFiles/zlib_Lib.dir/src/inffast.c.o.provides.build: CMakeFiles/zlib_Lib.dir/src/inffast.c.o
 
 
-CMakeFiles/zlib_Lib.dir/inflate.c.o: CMakeFiles/zlib_Lib.dir/flags.make
-CMakeFiles/zlib_Lib.dir/inflate.c.o: ../inflate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/zlib_Lib.dir/inflate.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/inflate.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/inflate.c
+CMakeFiles/zlib_Lib.dir/src/inflate.c.o: CMakeFiles/zlib_Lib.dir/flags.make
+CMakeFiles/zlib_Lib.dir/src/inflate.c.o: ../src/inflate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/zlib_Lib.dir/src/inflate.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/src/inflate.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/inflate.c
 
-CMakeFiles/zlib_Lib.dir/inflate.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/inflate.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/inflate.c > CMakeFiles/zlib_Lib.dir/inflate.c.i
+CMakeFiles/zlib_Lib.dir/src/inflate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/src/inflate.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/inflate.c > CMakeFiles/zlib_Lib.dir/src/inflate.c.i
 
-CMakeFiles/zlib_Lib.dir/inflate.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/inflate.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/inflate.c -o CMakeFiles/zlib_Lib.dir/inflate.c.s
+CMakeFiles/zlib_Lib.dir/src/inflate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/src/inflate.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/inflate.c -o CMakeFiles/zlib_Lib.dir/src/inflate.c.s
 
-CMakeFiles/zlib_Lib.dir/inflate.c.o.requires:
+CMakeFiles/zlib_Lib.dir/src/inflate.c.o.requires:
 
-.PHONY : CMakeFiles/zlib_Lib.dir/inflate.c.o.requires
+.PHONY : CMakeFiles/zlib_Lib.dir/src/inflate.c.o.requires
 
-CMakeFiles/zlib_Lib.dir/inflate.c.o.provides: CMakeFiles/zlib_Lib.dir/inflate.c.o.requires
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/inflate.c.o.provides.build
-.PHONY : CMakeFiles/zlib_Lib.dir/inflate.c.o.provides
+CMakeFiles/zlib_Lib.dir/src/inflate.c.o.provides: CMakeFiles/zlib_Lib.dir/src/inflate.c.o.requires
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/inflate.c.o.provides.build
+.PHONY : CMakeFiles/zlib_Lib.dir/src/inflate.c.o.provides
 
-CMakeFiles/zlib_Lib.dir/inflate.c.o.provides.build: CMakeFiles/zlib_Lib.dir/inflate.c.o
+CMakeFiles/zlib_Lib.dir/src/inflate.c.o.provides.build: CMakeFiles/zlib_Lib.dir/src/inflate.c.o
 
 
-CMakeFiles/zlib_Lib.dir/inftrees.c.o: CMakeFiles/zlib_Lib.dir/flags.make
-CMakeFiles/zlib_Lib.dir/inftrees.c.o: ../inftrees.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/zlib_Lib.dir/inftrees.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/inftrees.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/inftrees.c
+CMakeFiles/zlib_Lib.dir/src/inftrees.c.o: CMakeFiles/zlib_Lib.dir/flags.make
+CMakeFiles/zlib_Lib.dir/src/inftrees.c.o: ../src/inftrees.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/zlib_Lib.dir/src/inftrees.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/src/inftrees.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/inftrees.c
 
-CMakeFiles/zlib_Lib.dir/inftrees.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/inftrees.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/inftrees.c > CMakeFiles/zlib_Lib.dir/inftrees.c.i
+CMakeFiles/zlib_Lib.dir/src/inftrees.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/src/inftrees.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/inftrees.c > CMakeFiles/zlib_Lib.dir/src/inftrees.c.i
 
-CMakeFiles/zlib_Lib.dir/inftrees.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/inftrees.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/inftrees.c -o CMakeFiles/zlib_Lib.dir/inftrees.c.s
+CMakeFiles/zlib_Lib.dir/src/inftrees.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/src/inftrees.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/inftrees.c -o CMakeFiles/zlib_Lib.dir/src/inftrees.c.s
 
-CMakeFiles/zlib_Lib.dir/inftrees.c.o.requires:
+CMakeFiles/zlib_Lib.dir/src/inftrees.c.o.requires:
 
-.PHONY : CMakeFiles/zlib_Lib.dir/inftrees.c.o.requires
+.PHONY : CMakeFiles/zlib_Lib.dir/src/inftrees.c.o.requires
 
-CMakeFiles/zlib_Lib.dir/inftrees.c.o.provides: CMakeFiles/zlib_Lib.dir/inftrees.c.o.requires
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/inftrees.c.o.provides.build
-.PHONY : CMakeFiles/zlib_Lib.dir/inftrees.c.o.provides
+CMakeFiles/zlib_Lib.dir/src/inftrees.c.o.provides: CMakeFiles/zlib_Lib.dir/src/inftrees.c.o.requires
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/inftrees.c.o.provides.build
+.PHONY : CMakeFiles/zlib_Lib.dir/src/inftrees.c.o.provides
 
-CMakeFiles/zlib_Lib.dir/inftrees.c.o.provides.build: CMakeFiles/zlib_Lib.dir/inftrees.c.o
+CMakeFiles/zlib_Lib.dir/src/inftrees.c.o.provides.build: CMakeFiles/zlib_Lib.dir/src/inftrees.c.o
 
 
-CMakeFiles/zlib_Lib.dir/trees.c.o: CMakeFiles/zlib_Lib.dir/flags.make
-CMakeFiles/zlib_Lib.dir/trees.c.o: ../trees.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/zlib_Lib.dir/trees.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/trees.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/trees.c
+CMakeFiles/zlib_Lib.dir/src/trees.c.o: CMakeFiles/zlib_Lib.dir/flags.make
+CMakeFiles/zlib_Lib.dir/src/trees.c.o: ../src/trees.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/zlib_Lib.dir/src/trees.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/src/trees.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/trees.c
 
-CMakeFiles/zlib_Lib.dir/trees.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/trees.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/trees.c > CMakeFiles/zlib_Lib.dir/trees.c.i
+CMakeFiles/zlib_Lib.dir/src/trees.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/src/trees.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/trees.c > CMakeFiles/zlib_Lib.dir/src/trees.c.i
 
-CMakeFiles/zlib_Lib.dir/trees.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/trees.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/trees.c -o CMakeFiles/zlib_Lib.dir/trees.c.s
+CMakeFiles/zlib_Lib.dir/src/trees.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/src/trees.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/trees.c -o CMakeFiles/zlib_Lib.dir/src/trees.c.s
 
-CMakeFiles/zlib_Lib.dir/trees.c.o.requires:
+CMakeFiles/zlib_Lib.dir/src/trees.c.o.requires:
 
-.PHONY : CMakeFiles/zlib_Lib.dir/trees.c.o.requires
+.PHONY : CMakeFiles/zlib_Lib.dir/src/trees.c.o.requires
 
-CMakeFiles/zlib_Lib.dir/trees.c.o.provides: CMakeFiles/zlib_Lib.dir/trees.c.o.requires
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/trees.c.o.provides.build
-.PHONY : CMakeFiles/zlib_Lib.dir/trees.c.o.provides
+CMakeFiles/zlib_Lib.dir/src/trees.c.o.provides: CMakeFiles/zlib_Lib.dir/src/trees.c.o.requires
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/trees.c.o.provides.build
+.PHONY : CMakeFiles/zlib_Lib.dir/src/trees.c.o.provides
 
-CMakeFiles/zlib_Lib.dir/trees.c.o.provides.build: CMakeFiles/zlib_Lib.dir/trees.c.o
+CMakeFiles/zlib_Lib.dir/src/trees.c.o.provides.build: CMakeFiles/zlib_Lib.dir/src/trees.c.o
 
 
-CMakeFiles/zlib_Lib.dir/uncompr.c.o: CMakeFiles/zlib_Lib.dir/flags.make
-CMakeFiles/zlib_Lib.dir/uncompr.c.o: ../uncompr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/zlib_Lib.dir/uncompr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/uncompr.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/uncompr.c
+CMakeFiles/zlib_Lib.dir/src/uncompr.c.o: CMakeFiles/zlib_Lib.dir/flags.make
+CMakeFiles/zlib_Lib.dir/src/uncompr.c.o: ../src/uncompr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/zlib_Lib.dir/src/uncompr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/src/uncompr.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/uncompr.c
 
-CMakeFiles/zlib_Lib.dir/uncompr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/uncompr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/uncompr.c > CMakeFiles/zlib_Lib.dir/uncompr.c.i
+CMakeFiles/zlib_Lib.dir/src/uncompr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/src/uncompr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/uncompr.c > CMakeFiles/zlib_Lib.dir/src/uncompr.c.i
 
-CMakeFiles/zlib_Lib.dir/uncompr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/uncompr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/uncompr.c -o CMakeFiles/zlib_Lib.dir/uncompr.c.s
+CMakeFiles/zlib_Lib.dir/src/uncompr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/src/uncompr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/uncompr.c -o CMakeFiles/zlib_Lib.dir/src/uncompr.c.s
 
-CMakeFiles/zlib_Lib.dir/uncompr.c.o.requires:
+CMakeFiles/zlib_Lib.dir/src/uncompr.c.o.requires:
 
-.PHONY : CMakeFiles/zlib_Lib.dir/uncompr.c.o.requires
+.PHONY : CMakeFiles/zlib_Lib.dir/src/uncompr.c.o.requires
 
-CMakeFiles/zlib_Lib.dir/uncompr.c.o.provides: CMakeFiles/zlib_Lib.dir/uncompr.c.o.requires
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/uncompr.c.o.provides.build
-.PHONY : CMakeFiles/zlib_Lib.dir/uncompr.c.o.provides
+CMakeFiles/zlib_Lib.dir/src/uncompr.c.o.provides: CMakeFiles/zlib_Lib.dir/src/uncompr.c.o.requires
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/uncompr.c.o.provides.build
+.PHONY : CMakeFiles/zlib_Lib.dir/src/uncompr.c.o.provides
 
-CMakeFiles/zlib_Lib.dir/uncompr.c.o.provides.build: CMakeFiles/zlib_Lib.dir/uncompr.c.o
+CMakeFiles/zlib_Lib.dir/src/uncompr.c.o.provides.build: CMakeFiles/zlib_Lib.dir/src/uncompr.c.o
 
 
-CMakeFiles/zlib_Lib.dir/zutil.c.o: CMakeFiles/zlib_Lib.dir/flags.make
-CMakeFiles/zlib_Lib.dir/zutil.c.o: ../zutil.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/zlib_Lib.dir/zutil.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/zutil.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/zutil.c
+CMakeFiles/zlib_Lib.dir/src/zutil.c.o: CMakeFiles/zlib_Lib.dir/flags.make
+CMakeFiles/zlib_Lib.dir/src/zutil.c.o: ../src/zutil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/zlib_Lib.dir/src/zutil.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_Lib.dir/src/zutil.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/zutil.c
 
-CMakeFiles/zlib_Lib.dir/zutil.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/zutil.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/zutil.c > CMakeFiles/zlib_Lib.dir/zutil.c.i
+CMakeFiles/zlib_Lib.dir/src/zutil.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_Lib.dir/src/zutil.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/zutil.c > CMakeFiles/zlib_Lib.dir/src/zutil.c.i
 
-CMakeFiles/zlib_Lib.dir/zutil.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/zutil.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/zutil.c -o CMakeFiles/zlib_Lib.dir/zutil.c.s
+CMakeFiles/zlib_Lib.dir/src/zutil.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_Lib.dir/src/zutil.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/zutil.c -o CMakeFiles/zlib_Lib.dir/src/zutil.c.s
 
-CMakeFiles/zlib_Lib.dir/zutil.c.o.requires:
+CMakeFiles/zlib_Lib.dir/src/zutil.c.o.requires:
 
-.PHONY : CMakeFiles/zlib_Lib.dir/zutil.c.o.requires
+.PHONY : CMakeFiles/zlib_Lib.dir/src/zutil.c.o.requires
 
-CMakeFiles/zlib_Lib.dir/zutil.c.o.provides: CMakeFiles/zlib_Lib.dir/zutil.c.o.requires
-	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/zutil.c.o.provides.build
-.PHONY : CMakeFiles/zlib_Lib.dir/zutil.c.o.provides
+CMakeFiles/zlib_Lib.dir/src/zutil.c.o.provides: CMakeFiles/zlib_Lib.dir/src/zutil.c.o.requires
+	$(MAKE) -f CMakeFiles/zlib_Lib.dir/build.make CMakeFiles/zlib_Lib.dir/src/zutil.c.o.provides.build
+.PHONY : CMakeFiles/zlib_Lib.dir/src/zutil.c.o.provides
 
-CMakeFiles/zlib_Lib.dir/zutil.c.o.provides.build: CMakeFiles/zlib_Lib.dir/zutil.c.o
+CMakeFiles/zlib_Lib.dir/src/zutil.c.o.provides.build: CMakeFiles/zlib_Lib.dir/src/zutil.c.o
 
 
 # Object files for target zlib_Lib
 zlib_Lib_OBJECTS = \
-"CMakeFiles/zlib_Lib.dir/adler32.c.o" \
-"CMakeFiles/zlib_Lib.dir/compress.c.o" \
-"CMakeFiles/zlib_Lib.dir/crc32.c.o" \
-"CMakeFiles/zlib_Lib.dir/deflate.c.o" \
-"CMakeFiles/zlib_Lib.dir/gzclose.c.o" \
-"CMakeFiles/zlib_Lib.dir/gzlib.c.o" \
-"CMakeFiles/zlib_Lib.dir/gzread.c.o" \
-"CMakeFiles/zlib_Lib.dir/gzwrite.c.o" \
-"CMakeFiles/zlib_Lib.dir/infback.c.o" \
-"CMakeFiles/zlib_Lib.dir/inffast.c.o" \
-"CMakeFiles/zlib_Lib.dir/inflate.c.o" \
-"CMakeFiles/zlib_Lib.dir/inftrees.c.o" \
-"CMakeFiles/zlib_Lib.dir/trees.c.o" \
-"CMakeFiles/zlib_Lib.dir/uncompr.c.o" \
-"CMakeFiles/zlib_Lib.dir/zutil.c.o"
+"CMakeFiles/zlib_Lib.dir/src/adler32.c.o" \
+"CMakeFiles/zlib_Lib.dir/src/compress.c.o" \
+"CMakeFiles/zlib_Lib.dir/src/crc32.c.o" \
+"CMakeFiles/zlib_Lib.dir/src/deflate.c.o" \
+"CMakeFiles/zlib_Lib.dir/src/gzclose.c.o" \
+"CMakeFiles/zlib_Lib.dir/src/gzlib.c.o" \
+"CMakeFiles/zlib_Lib.dir/src/gzread.c.o" \
+"CMakeFiles/zlib_Lib.dir/src/gzwrite.c.o" \
+"CMakeFiles/zlib_Lib.dir/src/infback.c.o" \
+"CMakeFiles/zlib_Lib.dir/src/inffast.c.o" \
+"CMakeFiles/zlib_Lib.dir/src/inflate.c.o" \
+"CMakeFiles/zlib_Lib.dir/src/inftrees.c.o" \
+"CMakeFiles/zlib_Lib.dir/src/trees.c.o" \
+"CMakeFiles/zlib_Lib.dir/src/uncompr.c.o" \
+"CMakeFiles/zlib_Lib.dir/src/zutil.c.o"
 
 # External object files for target zlib_Lib
 zlib_Lib_EXTERNAL_OBJECTS =
 
-libzlib.dylib: CMakeFiles/zlib_Lib.dir/adler32.c.o
-libzlib.dylib: CMakeFiles/zlib_Lib.dir/compress.c.o
-libzlib.dylib: CMakeFiles/zlib_Lib.dir/crc32.c.o
-libzlib.dylib: CMakeFiles/zlib_Lib.dir/deflate.c.o
-libzlib.dylib: CMakeFiles/zlib_Lib.dir/gzclose.c.o
-libzlib.dylib: CMakeFiles/zlib_Lib.dir/gzlib.c.o
-libzlib.dylib: CMakeFiles/zlib_Lib.dir/gzread.c.o
-libzlib.dylib: CMakeFiles/zlib_Lib.dir/gzwrite.c.o
-libzlib.dylib: CMakeFiles/zlib_Lib.dir/infback.c.o
-libzlib.dylib: CMakeFiles/zlib_Lib.dir/inffast.c.o
-libzlib.dylib: CMakeFiles/zlib_Lib.dir/inflate.c.o
-libzlib.dylib: CMakeFiles/zlib_Lib.dir/inftrees.c.o
-libzlib.dylib: CMakeFiles/zlib_Lib.dir/trees.c.o
-libzlib.dylib: CMakeFiles/zlib_Lib.dir/uncompr.c.o
-libzlib.dylib: CMakeFiles/zlib_Lib.dir/zutil.c.o
-libzlib.dylib: CMakeFiles/zlib_Lib.dir/build.make
-libzlib.dylib: CMakeFiles/zlib_Lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C shared library libzlib.dylib"
+../outputs/lib/apple/libzlib.dylib: CMakeFiles/zlib_Lib.dir/src/adler32.c.o
+../outputs/lib/apple/libzlib.dylib: CMakeFiles/zlib_Lib.dir/src/compress.c.o
+../outputs/lib/apple/libzlib.dylib: CMakeFiles/zlib_Lib.dir/src/crc32.c.o
+../outputs/lib/apple/libzlib.dylib: CMakeFiles/zlib_Lib.dir/src/deflate.c.o
+../outputs/lib/apple/libzlib.dylib: CMakeFiles/zlib_Lib.dir/src/gzclose.c.o
+../outputs/lib/apple/libzlib.dylib: CMakeFiles/zlib_Lib.dir/src/gzlib.c.o
+../outputs/lib/apple/libzlib.dylib: CMakeFiles/zlib_Lib.dir/src/gzread.c.o
+../outputs/lib/apple/libzlib.dylib: CMakeFiles/zlib_Lib.dir/src/gzwrite.c.o
+../outputs/lib/apple/libzlib.dylib: CMakeFiles/zlib_Lib.dir/src/infback.c.o
+../outputs/lib/apple/libzlib.dylib: CMakeFiles/zlib_Lib.dir/src/inffast.c.o
+../outputs/lib/apple/libzlib.dylib: CMakeFiles/zlib_Lib.dir/src/inflate.c.o
+../outputs/lib/apple/libzlib.dylib: CMakeFiles/zlib_Lib.dir/src/inftrees.c.o
+../outputs/lib/apple/libzlib.dylib: CMakeFiles/zlib_Lib.dir/src/trees.c.o
+../outputs/lib/apple/libzlib.dylib: CMakeFiles/zlib_Lib.dir/src/uncompr.c.o
+../outputs/lib/apple/libzlib.dylib: CMakeFiles/zlib_Lib.dir/src/zutil.c.o
+../outputs/lib/apple/libzlib.dylib: CMakeFiles/zlib_Lib.dir/build.make
+../outputs/lib/apple/libzlib.dylib: CMakeFiles/zlib_Lib.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C shared library ../outputs/lib/apple/libzlib.dylib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zlib_Lib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/zlib_Lib.dir/build: libzlib.dylib
+CMakeFiles/zlib_Lib.dir/build: ../outputs/lib/apple/libzlib.dylib
 
 .PHONY : CMakeFiles/zlib_Lib.dir/build
 
-CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/adler32.c.o.requires
-CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/compress.c.o.requires
-CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/crc32.c.o.requires
-CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/deflate.c.o.requires
-CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/gzclose.c.o.requires
-CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/gzlib.c.o.requires
-CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/gzread.c.o.requires
-CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/gzwrite.c.o.requires
-CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/infback.c.o.requires
-CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/inffast.c.o.requires
-CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/inflate.c.o.requires
-CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/inftrees.c.o.requires
-CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/trees.c.o.requires
-CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/uncompr.c.o.requires
-CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/zutil.c.o.requires
+CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/src/adler32.c.o.requires
+CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/src/compress.c.o.requires
+CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/src/crc32.c.o.requires
+CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/src/deflate.c.o.requires
+CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/src/gzclose.c.o.requires
+CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/src/gzlib.c.o.requires
+CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/src/gzread.c.o.requires
+CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/src/gzwrite.c.o.requires
+CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/src/infback.c.o.requires
+CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/src/inffast.c.o.requires
+CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/src/inflate.c.o.requires
+CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/src/inftrees.c.o.requires
+CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/src/trees.c.o.requires
+CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/src/uncompr.c.o.requires
+CMakeFiles/zlib_Lib.dir/requires: CMakeFiles/zlib_Lib.dir/src/zutil.c.o.requires
 
 .PHONY : CMakeFiles/zlib_Lib.dir/requires
 

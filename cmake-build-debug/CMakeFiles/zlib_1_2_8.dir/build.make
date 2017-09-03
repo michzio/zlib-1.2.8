@@ -57,50 +57,50 @@ include CMakeFiles/zlib_1_2_8.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/zlib_1_2_8.dir/flags.make
 
-CMakeFiles/zlib_1_2_8.dir/main.c.o: CMakeFiles/zlib_1_2_8.dir/flags.make
-CMakeFiles/zlib_1_2_8.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/zlib_1_2_8.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_1_2_8.dir/main.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/main.c
+CMakeFiles/zlib_1_2_8.dir/src/main.c.o: CMakeFiles/zlib_1_2_8.dir/flags.make
+CMakeFiles/zlib_1_2_8.dir/src/main.c.o: ../src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/zlib_1_2_8.dir/src/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib_1_2_8.dir/src/main.c.o   -c /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/main.c
 
-CMakeFiles/zlib_1_2_8.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_1_2_8.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/main.c > CMakeFiles/zlib_1_2_8.dir/main.c.i
+CMakeFiles/zlib_1_2_8.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib_1_2_8.dir/src/main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/main.c > CMakeFiles/zlib_1_2_8.dir/src/main.c.i
 
-CMakeFiles/zlib_1_2_8.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_1_2_8.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/main.c -o CMakeFiles/zlib_1_2_8.dir/main.c.s
+CMakeFiles/zlib_1_2_8.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib_1_2_8.dir/src/main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/main.c -o CMakeFiles/zlib_1_2_8.dir/src/main.c.s
 
-CMakeFiles/zlib_1_2_8.dir/main.c.o.requires:
+CMakeFiles/zlib_1_2_8.dir/src/main.c.o.requires:
 
-.PHONY : CMakeFiles/zlib_1_2_8.dir/main.c.o.requires
+.PHONY : CMakeFiles/zlib_1_2_8.dir/src/main.c.o.requires
 
-CMakeFiles/zlib_1_2_8.dir/main.c.o.provides: CMakeFiles/zlib_1_2_8.dir/main.c.o.requires
-	$(MAKE) -f CMakeFiles/zlib_1_2_8.dir/build.make CMakeFiles/zlib_1_2_8.dir/main.c.o.provides.build
-.PHONY : CMakeFiles/zlib_1_2_8.dir/main.c.o.provides
+CMakeFiles/zlib_1_2_8.dir/src/main.c.o.provides: CMakeFiles/zlib_1_2_8.dir/src/main.c.o.requires
+	$(MAKE) -f CMakeFiles/zlib_1_2_8.dir/build.make CMakeFiles/zlib_1_2_8.dir/src/main.c.o.provides.build
+.PHONY : CMakeFiles/zlib_1_2_8.dir/src/main.c.o.provides
 
-CMakeFiles/zlib_1_2_8.dir/main.c.o.provides.build: CMakeFiles/zlib_1_2_8.dir/main.c.o
+CMakeFiles/zlib_1_2_8.dir/src/main.c.o.provides.build: CMakeFiles/zlib_1_2_8.dir/src/main.c.o
 
 
 # Object files for target zlib_1_2_8
 zlib_1_2_8_OBJECTS = \
-"CMakeFiles/zlib_1_2_8.dir/main.c.o"
+"CMakeFiles/zlib_1_2_8.dir/src/main.c.o"
 
 # External object files for target zlib_1_2_8
 zlib_1_2_8_EXTERNAL_OBJECTS =
 
-zlib: CMakeFiles/zlib_1_2_8.dir/main.c.o
-zlib: CMakeFiles/zlib_1_2_8.dir/build.make
-zlib: libzlib.a
-zlib: CMakeFiles/zlib_1_2_8.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable zlib"
+../outputs/bin/apple/zlib: CMakeFiles/zlib_1_2_8.dir/src/main.c.o
+../outputs/bin/apple/zlib: CMakeFiles/zlib_1_2_8.dir/build.make
+../outputs/bin/apple/zlib: ../outputs/lib/apple/libzlib.dylib
+../outputs/bin/apple/zlib: CMakeFiles/zlib_1_2_8.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../outputs/bin/apple/zlib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zlib_1_2_8.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/zlib_1_2_8.dir/build: zlib
+CMakeFiles/zlib_1_2_8.dir/build: ../outputs/bin/apple/zlib
 
 .PHONY : CMakeFiles/zlib_1_2_8.dir/build
 
-CMakeFiles/zlib_1_2_8.dir/requires: CMakeFiles/zlib_1_2_8.dir/main.c.o.requires
+CMakeFiles/zlib_1_2_8.dir/requires: CMakeFiles/zlib_1_2_8.dir/src/main.c.o.requires
 
 .PHONY : CMakeFiles/zlib_1_2_8.dir/requires
 

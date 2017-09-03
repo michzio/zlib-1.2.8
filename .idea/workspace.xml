@@ -2,7 +2,6 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="zlib_1_2_8" targetName="Intall_zlib_1_2_8" />
       <config projectName="zlib_1_2_8" targetName="zlib_Lib_Static" />
       <config projectName="zlib_1_2_8" targetName="zlib_Lib" />
       <config projectName="zlib_1_2_8" targetName="zlib_1_2_8" />
@@ -15,11 +14,123 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="767fc53b-d148-438e-b475-39e404b5afc5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zlib_1.2.8.dSYM/Contents/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zlib_1.2.8.dSYM/Contents/Resources/DWARF/zlib_1.2.8" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/zlib-1.2.8.iml" afterPath="$PROJECT_DIR$/.idea/zlib-1.2.8.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_1_2_8.dir/main.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/adler32.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/compress.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/crc32.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/deflate.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/gzclose.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/gzlib.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/gzread.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/gzwrite.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/infback.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/inffast.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/inflate.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/inftrees.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/trees.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/uncompr.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/zutil.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/adler32.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/compress.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/crc32.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/deflate.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/gzclose.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/gzlib.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/gzread.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/gzwrite.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/infback.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/inffast.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/inflate.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/inftrees.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/trees.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/uncompr.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/zutil.c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/adler32.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/bin/zlib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/bin/zlib.dSYM/Contents/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/bin/zlib.dSYM/Contents/Resources/DWARF/zlib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/compress.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/crc32.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/deflate.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/gzclose.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/gzlib.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/gzread.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/gzwrite.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/infback.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/inffast.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/inflate.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/inftrees.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/lib/static/libzlib.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/trees.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/debug/zutil.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/unix/bin/zlib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/unix/lib/libzlib.dylib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/unix/lib/static/libzlib.a" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/adler32.c" afterPath="$PROJECT_DIR$/src/adler32.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/compress.c" afterPath="$PROJECT_DIR$/src/compress.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/crc32.c" afterPath="$PROJECT_DIR$/src/crc32.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/crc32.h" afterPath="$PROJECT_DIR$/include/crc32.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/deflate.c" afterPath="$PROJECT_DIR$/src/deflate.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/deflate.h" afterPath="$PROJECT_DIR$/include/deflate.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gzclose.c" afterPath="$PROJECT_DIR$/src/gzclose.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gzguts.h" afterPath="$PROJECT_DIR$/include/gzguts.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gzlib.c" afterPath="$PROJECT_DIR$/src/gzlib.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gzread.c" afterPath="$PROJECT_DIR$/src/gzread.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gzwrite.c" afterPath="$PROJECT_DIR$/src/gzwrite.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/infback.c" afterPath="$PROJECT_DIR$/src/infback.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/inffast.c" afterPath="$PROJECT_DIR$/src/inffast.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/inffast.h" afterPath="$PROJECT_DIR$/include/inffast.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/inffixed.h" afterPath="$PROJECT_DIR$/include/inffixed.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/inflate.c" afterPath="$PROJECT_DIR$/src/inflate.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/inflate.h" afterPath="$PROJECT_DIR$/include/inflate.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/inftrees.c" afterPath="$PROJECT_DIR$/src/inftrees.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/inftrees.h" afterPath="$PROJECT_DIR$/include/inftrees.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/main.c" afterPath="$PROJECT_DIR$/src/main.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/trees.c" afterPath="$PROJECT_DIR$/src/trees.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/trees.h" afterPath="$PROJECT_DIR$/include/trees.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/uncompr.c" afterPath="$PROJECT_DIR$/src/uncompr.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zconf.h" afterPath="$PROJECT_DIR$/include/zconf.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zlib.h" afterPath="$PROJECT_DIR$/include/zlib.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zutil.c" afterPath="$PROJECT_DIR$/src/zutil.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zutil.h" afterPath="$PROJECT_DIR$/include/zutil.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_1_2_8.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_1_2_8.dir/C.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_1_2_8.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_1_2_8.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_1_2_8.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_1_2_8.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_1_2_8.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_1_2_8.dir/cmake_clean.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_1_2_8.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_1_2_8.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_1_2_8.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_1_2_8.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_1_2_8.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_1_2_8.dir/flags.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_1_2_8.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_1_2_8.dir/link.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_1_2_8.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_1_2_8.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/C.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/cmake_clean.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/flags.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/link.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/C.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/cmake_clean.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/cmake_clean_target.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/cmake_clean_target.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/flags.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/link.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/zlib_Lib_Static.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/zlib_1_2_8.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/zlib_1_2_8.cbp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/make.txt" afterPath="$PROJECT_DIR$/make.txt" />
     </list>
     <ignored path="zlib-1.2.8.iws" />
@@ -40,12 +151,12 @@
     <favorites_list name="zlib-1.2.8" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+            <state relative-caret-position="150">
+              <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -61,6 +172,7 @@
       <list>
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/make.txt" />
       </list>
     </option>
   </component>
@@ -71,10 +183,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="71" />
-    <option name="y" value="48" />
+    <option name="x" value="179" />
+    <option name="y" value="23" />
     <option name="width" value="1356" />
-    <option name="height" value="769" />
+    <option name="height" value="561" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -114,6 +226,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -130,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Intall_zlib_1_2_8">
+  <component name="RunManager" selected="Application.Build All">
     <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
       <method />
     </configuration>
@@ -227,6 +343,8 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -327,16 +445,11 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Intall_zlib_1_2_8" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="zlib_1_2_8" TARGET_NAME="Intall_zlib_1_2_8" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="zlib_1_2_8" RUN_TARGET_NAME="zlib_1_2_8">
-      <envs />
-      <method />
-    </configuration>
-    <list size="5">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.zlib_1_2_8" />
       <item index="1" class="java.lang.String" itemvalue="Application.zlib_Lib" />
       <item index="2" class="java.lang.String" itemvalue="Application.zlib_Lib_Static" />
       <item index="3" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Intall_zlib_1_2_8" />
     </list>
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -376,27 +489,32 @@
       <workItem from="1479916241311" duration="763000" />
       <workItem from="1479918984500" duration="16000" />
       <workItem from="1496745289778" duration="429000" />
+      <workItem from="1496826431550" duration="11000" />
+      <workItem from="1496826737790" duration="39000" />
+      <workItem from="1496827773961" duration="62000" />
+      <workItem from="1502458051716" duration="3988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5847000" />
+    <option name="totallyTimeSpent" value="9947000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="71" y="48" width="1356" height="769" extended-state="0" />
+    <frame x="179" y="23" width="1356" height="561" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17884323" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18797565" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5420975" sideWeight="0.49676225" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5419162" sideWeight="0.49676225" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37442923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781458" sideWeight="0.5032377" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15952733" sideWeight="0.49676225" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4491018" sideWeight="0.49676225" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.49676225" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35450518" sideWeight="0.49676225" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31130064" sideWeight="0.49676225" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -425,137 +543,177 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/deflate.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-765">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zutil.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzguts.h">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zutil.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crc32.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="418" column="0" lean-forward="false" selection-start-line="418" selection-start-column="0" selection-end-line="418" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crc32.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zconf.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adler32.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zlib.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compress.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzclose.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzlib.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gzread.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infback.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inffixed.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trees.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deflate.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/deflate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zutil.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/gzguts.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/zutil.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crc32.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="418" column="0" lean-forward="false" selection-start-line="418" selection-start-column="0" selection-end-line="418" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/crc32.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/zconf.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/zlib.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compress.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gzclose.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gzlib.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gzread.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/infback.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/inffixed.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/deflate.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adler32.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2130">
+          <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="27" />
           <folding />
         </state>
       </provider>

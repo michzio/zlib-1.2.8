@@ -14,6 +14,10 @@ AR = ar rcs
 # -std=c99 use newer version 
 CFLAGS=-g -Wall -D__USE_FIXED_PROTOTYPES__ -std=c99
 
+# include directories
+INCLUDE_DIRS= ./include
+CFLAGS+= $(foreach d, $(INCLUDE_DIRS), -I$d)
+
 # the build target executable: 
 TARGET = zlib
 LIBRARY = libzlib.a
@@ -25,72 +29,79 @@ ifeq ($(UNAME_S),Darwin)
 	DYNAMIC_LIBRARY= libzlib.dylib
 else 
 	DYNAMIC_LIBRARY=
-endif 
+endif
 
-# output directories 
-OUTPUT_DIR = output/debug
-OUTPUT_LIB_DIR = $(OUTPUT_DIR)/lib
-OUTPUT_STATIC_LIB_DIR = $(OUTPUT_LIB_DIR)/static
-OUTPUT_BIN_DIR = $(OUTPUT_DIR)/bin
+# source files
+SOURCE_FILES = adler32.o compress.o crc32.o deflate.o gzclose.o gzlib.o gzread.o gzwrite.o infback.o inffast.o inflate.o inftrees.o trees.o zutil.o
+
+# outputs directories
+OUTPUTS_DIR = outputs/debug
+OUTPUTS_LIB_DIR = $(OUTPUTS_DIR)/lib
+OUTPUTS_BIN_DIR = $(OUTPUTS_DIR)/bin
 
 all: directories libraries $(TARGET)
 
-# make output directories
+# make outputs directories
 directories: 
-	@mkdir -p $(OUTPUT_DIR)
-	@mkdir -p $(OUTPUT_LIB_DIR)
-	@mkdir -p $(OUTPUT_STATIC_LIB_DIR)
-	@mkdir -p $(OUTPUT_BIN_DIR)
+	@mkdir -p $(OUTPUTS_DIR)
+	@mkdir -p $(OUTPUTS_LIB_DIR)
+	@mkdir -p $(OUTPUTS_BIN_DIR)
 
-libraries: $(LIBRARY)
+libraries: $(LIBRARY) $(SHARED_LIBRARY) $(DYNAMIC_LIBRARY)
 
-$(TARGET): main.c $(LIBRARY)
-	$(CC) $(CFLAGS) -o $(OUTPUT_BIN_DIR)/$(TARGET) main.c $(OUTPUT_STATIC_LIB_DIR)/$(LIBRARY)
+$(TARGET): $(LIBRARY)
+	$(CC) $(CFLAGS) -o $(OUTPUTS_BIN_DIR)/$(TARGET) src/main.c $(OUTPUTS_LIB_DIR)/$(LIBRARY)
 
-$(LIBRARY): adler32.o compress.o crc32.o deflate.o gzclose.o gzlib.o gzread.o gzwrite.o infback.o inffast.o inflate.o inftrees.o trees.o zutil.o
-	$(AR) $(OUTPUT_STATIC_LIB_DIR)/$(LIBRARY) $(OUTPUT_DIR)/*.o
+$(SHARED_LIBRARY): $(SOURCE_FILES)
+	$(CC) $(CFLAGS) -shared -o $(OUTPUTS_LIB_DIR)/$(SHARED_LIBRARY) $(OUTPUTS_DIR)/*.o
 
-adler32.o: adler32.c 
-	$(CC) $(CFLAGS) -c adler32.c -o $(OUTPUT_DIR)/adler32.o
+$(DYNAMIC_LIBRARY): $(SOURCE_FILES)
+	$(CC) $(CFLAGS) -dynamiclib -o $(OUTPUTS_LIB_DIR)/$(DYNAMIC_LIBRARY) $(OUTPUTS_DIR)/*.o
 
-compress.o: compress.c
-	$(CC) $(CFLAGS) -c compress.c -o $(OUTPUT_DIR)/compress.o
+$(LIBRARY): $(SOURCE_FILES)
+	$(AR) $(OUTPUTS_LIB_DIR)/$(LIBRARY) $(OUTPUTS_DIR)/*.o
 
-crc32.o: crc32.c crc32.h
-	$(CC) $(CFLAGS) -c crc32.c -o $(OUTPUT_DIR)/crc32.o
+adler32.o: src/adler32.c
+	$(CC) $(CFLAGS) -c src/adler32.c -o $(OUTPUTS_DIR)/adler32.o
 
-deflate.o: deflate.c deflate.h
-	$(CC) $(CFLAGS) -c deflate.c -o $(OUTPUT_DIR)/deflate.o
+compress.o: src/compress.c
+	$(CC) $(CFLAGS) -c src/compress.c -o $(OUTPUTS_DIR)/compress.o
 
-gzclose.o: gzclose.c 
-	$(CC) $(CFLAGS) -c gzclose.c -o $(OUTPUT_DIR)/gzclose.o
+crc32.o: src/crc32.c include/crc32.h
+	$(CC) $(CFLAGS) -c src/crc32.c -o $(OUTPUTS_DIR)/crc32.o
 
-gzlib.o: gzlib.c 
-	$(CC) $(CFLAGS) -c gzlib.c -o $(OUTPUT_DIR)/gzlib.o
+deflate.o: src/deflate.c include/deflate.h
+	$(CC) $(CFLAGS) -c src/deflate.c -o $(OUTPUTS_DIR)/deflate.o
 
-gzread.o: gzread.c 
-	$(CC) $(CFLAGS) -c gzread.c -o $(OUTPUT_DIR)/gzread.o
+gzclose.o: src/gzclose.c
+	$(CC) $(CFLAGS) -c src/gzclose.c -o $(OUTPUTS_DIR)/gzclose.o
 
-gzwrite.o: gzwrite.c 
-	$(CC) $(CFLAGS) -c gzwrite.c -o $(OUTPUT_DIR)/gzwrite.o
+gzlib.o: src/gzlib.c
+	$(CC) $(CFLAGS) -c src/gzlib.c -o $(OUTPUTS_DIR)/gzlib.o
 
-infback.o: infback.c 
-	$(CC) $(CFLAGS) -c infback.c -o $(OUTPUT_DIR)/infback.o
+gzread.o: src/gzread.c
+	$(CC) $(CFLAGS) -c src/gzread.c -o $(OUTPUTS_DIR)/gzread.o
 
-inffast.o: inffast.c inffast.h
-	$(CC) $(CFLAGS) -c inffast.c -o $(OUTPUT_DIR)/inffast.o
+gzwrite.o: src/gzwrite.c
+	$(CC) $(CFLAGS) -c src/gzwrite.c -o $(OUTPUTS_DIR)/gzwrite.o
 
-inflate.o: inflate.c inflate.h 
-	$(CC) $(CFLAGS) -c inflate.c -o $(OUTPUT_DIR)/inflate.o
+infback.o: src/infback.c
+	$(CC) $(CFLAGS) -c src/infback.c -o $(OUTPUTS_DIR)/infback.o
 
-inftrees.o: inftrees.c inftrees.h
-	$(CC) $(CFLAGS) -c inftrees.c -o $(OUTPUT_DIR)/inftrees.o
+inffast.o: src/inffast.c include/inffast.h
+	$(CC) $(CFLAGS) -c src/inffast.c -o $(OUTPUTS_DIR)/inffast.o
 
-trees.o: trees.c trees.h 
-	$(CC) $(CFLAGS) -c trees.c -o $(OUTPUT_DIR)/trees.o
+inflate.o: src/inflate.c include/inflate.h
+	$(CC) $(CFLAGS) -c src/inflate.c -o $(OUTPUTS_DIR)/inflate.o
 
-zutil.o: zutil.c zutil.h
-	$(CC) $(CFLAGS) -c zutil.c -o $(OUTPUT_DIR)/zutil.o
+inftrees.o: src/inftrees.c include/inftrees.h
+	$(CC) $(CFLAGS) -c src/inftrees.c -o $(OUTPUTS_DIR)/inftrees.o
+
+trees.o: src/trees.c include/trees.h
+	$(CC) $(CFLAGS) -c src/trees.c -o $(OUTPUTS_DIR)/trees.o
+
+zutil.o: src/zutil.c include/zutil.h
+	$(CC) $(CFLAGS) -c src/zutil.c -o $(OUTPUTS_DIR)/zutil.o
 
 clean: 
-	$(RM) -rf $(OUTPUT_DIR)
+	$(RM) -rf $(OUTPUTS_DIR)

@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libzlib.a"
+  "../outputs/lib/apple/libzlib.a"
 )

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/zlib_1_2_8.dir/main.c.o"
-  "zlib.pdb"
-  "zlib"
+  "CMakeFiles/zlib_1_2_8.dir/src/main.c.o"
+  "../outputs/bin/apple/zlib.pdb"
+  "../outputs/bin/apple/zlib"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -6,5 +6,5 @@ C_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 C_DEFINES = -Dzlib_Lib_EXPORTS
 
-C_INCLUDES = 
+C_INCLUDES = -I/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/include 
 

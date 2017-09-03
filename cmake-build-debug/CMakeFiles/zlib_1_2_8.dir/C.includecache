@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/main.c
+/Users/michzio/Developer/MyProjects/BachelorDegree/c/zlib-1.2.8/src/main.c
 stdio.h
 -
 
